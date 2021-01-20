@@ -1,0 +1,31 @@
+.block {
+  border-radius: 5px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+  cursor: pointer;
+
+  height: 80px;
+  padding: 1rem 0.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.block:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.booked-message {
+  margin-top: auto;
+}
+
+.booked {
+  background-color: lightgreen;
+}
+
+.full {
+  cursor: unset;
+  background-color: lightgray;
+}
